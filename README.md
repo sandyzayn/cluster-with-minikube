@@ -1,16 +1,16 @@
-#**🚀 Minikube Kubernetes Demo**
-##**📌 Overview**
+**🚀 Minikube Kubernetes Demo**
+**📌 Overview**
 This project shows how to **create a local Kubernetes cluster with Minikube, deploy a simple Nginx app, expose it via a service, and manage it with scaling and logs.**
 It includes YAML manifests and commands to run and verify your app.
 
-###**🛠 Prerequisites**
+**🛠 Prerequisites**
 Minikube – Local Kubernetes cluster tool.
 
 kubectl – Kubernetes CLI.
 
 Docker – Required if using the Docker driver for Minikube.
 
-####**📂 Project Structure**
+**📂 Project Structure**
 minikube-k8s-demo/
 ├── namespace.yaml      
 ├── deployment.yaml     
@@ -19,7 +19,7 @@ minikube-k8s-demo/
 ├── ingress.yaml       
 └── README.md 
 
-#####**📜 Steps**
+**📜 Steps**
 **1️⃣ Start Minikube**
 ```
 minikube start
